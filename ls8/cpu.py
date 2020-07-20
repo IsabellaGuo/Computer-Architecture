@@ -26,6 +26,7 @@ class CPU:
             0b00000001, # HLT
         ]
 
+
         for instruction in program:
             self.ram[address] = instruction
             address += 1
