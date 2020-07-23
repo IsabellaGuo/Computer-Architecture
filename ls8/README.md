@@ -39,7 +39,7 @@ or
   value `8`), also known as the _operands_.
 
 This code above requires the implementation of three instructions:
-
+ 
 * `LDI`: load "immediate", store a value in a register, or "set this register to
   this value".
 * `PRN`: a pseudo-instruction that prints the numeric value stored in a
